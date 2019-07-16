@@ -1,0 +1,132 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>monitorAlarmCount</artifactId>
+  <version>0.1</version>
+  <dependencies>
+  	<!-- common use jar -->
+  	<dependency><!-- 单元测试 依赖包 -->
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency><!-- I/O 操作 依赖包 -->
+  		<groupId>commons-io</groupId>
+  		<artifactId>commons-io</artifactId>
+  		<version>2.4</version>
+  	</dependency>
+  	<dependency><!-- 字符串操作 依赖包 -->
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-lang3</artifactId>
+  		<version>3.4</version>
+  	</dependency>
+  	<dependency><!-- 集合操作 依赖包 -->
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-collections4</artifactId>
+  		<version>4.1</version>
+  	</dependency>
+  	<dependency><!-- 数据库操作 依赖包 -->
+  		<groupId>commons-dbutils</groupId>
+  		<artifactId>commons-dbutils</artifactId>
+  		<version>1.6</version>
+  	</dependency>
+  	<dependency><!-- Log 日志依赖包 -->
+  		<groupId>log4j</groupId>
+  		<artifactId>log4j</artifactId>
+  		<version>1.2.17</version>
+  	</dependency>
+  	<dependency><!-- 日志依赖接口 -->
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-log4j12</artifactId>
+  		<version>1.7.12</version>
+  	</dependency>
+  	<dependency><!-- JSON 依赖包 -->
+  		<groupId>com.google.code.gson</groupId>
+  		<artifactId>gson</artifactId>
+  		<version>2.7</version>
+  	</dependency>
+  	<dependency><!-- MySQL 依赖包 -->
+  		<groupId>mysql</groupId>
+  		<artifactId>mysql-connector-java</artifactId>
+  		<version>5.1.47</version>
+  	</dependency>
+  	<dependency><!-- MySQL 连接池依赖包 -->
+  		<groupId>c3p0</groupId>
+  		<artifactId>c3p0</artifactId>
+  		<version>0.9.1.2</version>
+  	</dependency>
+  	<dependency><!-- Kafka Client 依赖包 -->
+  		<groupId>org.apache.kafka</groupId>
+  		<artifactId>kafka-clients</artifactId>
+  		<version>2.2.1</version>
+  	</dependency>
+  </dependencies>
+  <build>
+  	<finalName>MonitorAlarmCount</finalName>
+	<plugins>
+		<plugin>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>1.8</source>
+				<target>1.8</target>
+				<encoding>utf8</encoding><!-- 指定编译使用的字符集编码 -->
+			</configuration>
+		</plugin>
+		<plugin><!-- 将所有依赖包打入同一个jar包中 -->
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-assembly-plugin</artifactId>
+  			<version>2.4</version>
+  			<configuration>
+  				<descriptorRefs>
+  					<!-- jar包的后缀名 -->
+  					<descriptorRef>jar-with-dependencies</descriptorRef>
+  				</descriptorRefs>
+  			</configuration>
+  			<executions>
+  				<execution>
+  					<id>assemble-all</id>
+  					<phase>package</phase>
+  					<goals>
+  						<goal>single</goal>
+  					</goals>
+  				</execution>
+  			</executions>
+  		</plugin>
+		<plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>exec-maven-plugin</artifactId>
+			<version>1.5.0</version>
+			<executions>
+				<execution>
+					<goals>
+						<goal>java</goal>
+					</goals>
+				</execution>
+			</executions>
+			<configuration>
+				<mainClass>sparkstreaming_action.count.main.ConsumerMain</mainClass>
+				<cleanupDaemonThreads>false</cleanupDaemonThreads>
+				<arguments>
+					<argument>-Xms=2G</argument> <!-- JVM参数 -->
+					<argument>-Xmx=2G</argument> <!-- JVM参数 -->
+					<argument>-Xmn=1G</argument> <!-- JVM参数 -->
+				</arguments>
+			</configuration>
+		</plugin>
+	</plugins>
+  </build>
+  <repositories>
+  	<repository>  
+		<id>alimaven</id>  
+		<name>aliyun maven</name>  
+		<url>http://maven.aliyun.com/nexus/content/groups/public/</url>  
+		<releases>  
+			<enabled>true</enabled>  
+		</releases>  
+		<snapshots>  
+			<enabled>false</enabled>  
+		</snapshots>  
+	</repository>
+  </repositories>
+</project>

@@ -1,0 +1,229 @@
+=[WARN] 2019-07-16 10:21:13,479 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_JsonParseError] mapSegment error	reviewJson string: 
+ spray.json.JsonParser$ParsingException: Unexpected end-of-input at input index 0 (line 1, position 1), expected JSON Value:
+
+^
+
+	at spray.json.JsonParser.fail(JsonParser.scala:213)
+	at spray.json.JsonParser.value(JsonParser.scala:64)
+	at spray.json.JsonParser.parseJsValue(JsonParser.scala:43)
+	at spray.json.JsonParser$.apply(JsonParser.scala:28)
+	at spray.json.PimpedString.parseJson(package.scala:45)
+	at sparkstreaming_action.statistic.service.SegmentService$.mapSegment(SegmentService.scala:43)
+	at sparkstreaming_action.statistic.service.SegmentServiceTest.testDemo(SegmentServiceTest.scala:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+=[WARN] 2019-07-16 10:21:13,495 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_GameIgnored] no need to monitor gameId: 2
+ =[WARN] 2019-07-16 10:21:14,352 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 1	gameName: a	time elapsed: 857	MonitorGames count: 1
+ =[WARN] 2019-07-16 10:21:14,360 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_ReviewEmpty] reviewJson: { "gameId":"1", "review":"" }
+ =[WARN] 2019-07-16 10:34:10,401 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_JsonParseError] mapSegment error	reviewJson string: 
+ spray.json.JsonParser$ParsingException: Unexpected end-of-input at input index 0 (line 1, position 1), expected JSON Value:
+
+^
+
+	at spray.json.JsonParser.fail(JsonParser.scala:213)
+	at spray.json.JsonParser.value(JsonParser.scala:64)
+	at spray.json.JsonParser.parseJsValue(JsonParser.scala:43)
+	at spray.json.JsonParser$.apply(JsonParser.scala:28)
+	at spray.json.PimpedString.parseJson(package.scala:45)
+	at sparkstreaming_action.statistic.service.SegmentService$.mapSegment(SegmentService.scala:43)
+	at sparkstreaming_action.statistic.service.SegmentServiceTest.testDemo(SegmentServiceTest.scala:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+=[WARN] 2019-07-16 10:34:10,414 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_GameIgnored] no need to monitor gameId: 2
+ =[WARN] 2019-07-16 10:34:11,344 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 1	gameName: a	time elapsed: 926	MonitorGames count: 2
+result: (1,{"gameId":1,"gameName":"a","review":"我们是共产主义接班人","reviewSeg":"我们\t是\t共产主义\t接班人"})
+ =[WARN] 2019-07-16 10:34:11,347 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_ReviewEmpty] reviewJson: { "gameId":"1", "review":"" }
+ =[WARN] 2019-07-16 10:34:11,354 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 7	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 10:38:31,152 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_JsonParseError] mapSegment error	reviewJson string: 
+ spray.json.JsonParser$ParsingException: Unexpected end-of-input at input index 0 (line 1, position 1), expected JSON Value:
+
+^
+
+	at spray.json.JsonParser.fail(JsonParser.scala:213)
+	at spray.json.JsonParser.value(JsonParser.scala:64)
+	at spray.json.JsonParser.parseJsValue(JsonParser.scala:43)
+	at spray.json.JsonParser$.apply(JsonParser.scala:28)
+	at spray.json.PimpedString.parseJson(package.scala:45)
+	at sparkstreaming_action.statistic.service.SegmentService$.mapSegment(SegmentService.scala:43)
+	at sparkstreaming_action.statistic.service.SegmentServiceTest.testDemo(SegmentServiceTest.scala:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+=[WARN] 2019-07-16 10:38:31,167 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_GameIgnored] no need to monitor gameId: 2
+ =[WARN] 2019-07-16 10:38:31,907 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 1	gameName: a	time elapsed: 733	MonitorGames count: 2
+result: (1,{"gameId":1,"gameName":"a","review":"我们是共产主义接班人","reviewSeg":"我们\t是\t共产主义\t接班人"})
+ =[WARN] 2019-07-16 10:38:31,907 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_ReviewEmpty] reviewJson: { "gameId":"1", "review":"" }
+ =[WARN] 2019-07-16 10:38:31,914 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 7	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 10:42:40,679 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 827	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 10:42:56,275 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 829	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 10:45:41,996 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 10951	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 10:47:19,348 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 848	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 10:51:28,482 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_JsonParseError] mapSegment error	reviewJson string: 
+ spray.json.JsonParser$ParsingException: Unexpected end-of-input at input index 0 (line 1, position 1), expected JSON Value:
+
+^
+
+	at spray.json.JsonParser.fail(JsonParser.scala:213)
+	at spray.json.JsonParser.value(JsonParser.scala:64)
+	at spray.json.JsonParser.parseJsValue(JsonParser.scala:43)
+	at spray.json.JsonParser$.apply(JsonParser.scala:28)
+	at spray.json.PimpedString.parseJson(package.scala:45)
+	at sparkstreaming_action.statistic.service.SegmentService$.mapSegment(SegmentService.scala:43)
+	at sparkstreaming_action.statistic.service.SegmentServiceTest.testDemo(SegmentServiceTest.scala:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+=[WARN] 2019-07-16 10:51:28,497 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_GameIgnored] no need to monitor gameId: 2
+ =[WARN] 2019-07-16 10:51:29,255 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 1	gameName: a	time elapsed: 754	MonitorGames count: 2
+result: (1,{"gameId":1,"gameName":"a","review":"我们是共产主义接班人","reviewSeg":"我们\t是\t共产主义\t接班人"})
+ =[WARN] 2019-07-16 10:51:29,258 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_ReviewEmpty] reviewJson: { "gameId":"1", "review":"" }
+ =[WARN] 2019-07-16 10:51:29,270 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 12	MonitorGames count: 2
+result: (2301,{"gameId":2301,"gameName":"b","review":"说实话 作为一个手机游戏 你很成功 成功到弱智 孤儿 自大狂 乱七八糟的人一大堆都玩 小孩子氪金什么问题也一大堆 但为什么我之前没想过来写评论 是我觉得没必要反正上了王者无欲无求 最后问题来了 s5左右上的王者当时是ios 是名v6（深受fgo毒害喜欢抽奖，大部分电卷都用来抽奖了，有武则天)然后就弃坑了 直到前不久 觉得没事做就又下了回来（之前的ios手机被我捞船玩烧了）然后就见识到了你天美是真恶心 我是真的菜 不能一打五 到了钻石连胜五次必碰到*** 然后就要开始连跪 你想认真玩 可以 结果队友菜还骚话不断影响心情 这次新号一分钱没充没英雄 只能寄希望给队友 不然我当时江苏省前50的雅典娜 这多了个星耀在王者中间正常还是带的动的低端局的吧 然而并没有 只好老老实实玩辅助（鱼，项羽） 上单（只有凯（实在筹不到18888买雅典娜)和曹操）养队友（儿子)一路混上了钻石 网却总是460 我就纳闷了 还能是我家网烂到这种程度么 那我用移动卡 电信卡流量你还能这样？行 你说有个加速器是什么至尊通道 我买 但你想让我买皮肤什么的做梦 然后网络就奇迹般的好了 呵呵 那我就玩射手速度点上分 非常顺利的上了钻一 然后心态就彻底炸了 真***的不想玩就别玩 不要刚进来就一副自己很nb的样子 然后被人打崩了怪队友 我一点也不怪队友 我怪的是天美你的***匹配系统 当年就感觉*** 现在更*** 劳资是不是要次次评分最低你才给点正常人给我？是不是只有我一直输 我才配赢？能不能请你把有脑子的没脑子的分两个频道 别跟带小孩一样 评分一高 一连胜 就nm要带小孩 凭什么？玩个游戏 谁不是来找成就感的 你把我对手弄得再强我没意见 至少队友要知道大概思路怎么赢 你把弱智放进来 我只想说***我也打不过","reviewSeg":"说实话\t \t作为\t一个\t手机游戏\t \t你\t很\t成功\t \t成功\t到\t弱智\t \t孤儿\t \t自大狂\t \t乱七八糟\t的\t人\t一大堆\t都\t玩\t \t小孩子\t氪\t金\t什么\t问题\t也\t一大堆\t \t但\t为什么\t我\t之前\t没想\t过来\t写\t评论\t \t是\t我\t觉得\t没\t必要\t反正\t上\t了\t王者\t无欲无求\t \t最后\t问题\t来\t了\t \ts5\t左右\t上\t的\t王者\t当时\t是\tios\t \t是\t名\tv6\t（\t深受\tfgo\t毒害\t喜欢\t抽奖\t，\t大部分\t电卷\t都\t用来\t抽奖\t了\t，\t有\t武则天\t)\t然后\t就弃\t坑\t了\t \t直到\t前不久\t \t觉得\t没事\t做\t就\t又\t下\t了\t回来\t（\t之前\t的\tios\t手机\t被\t我\t捞\t船\t玩\t烧\t了\t）\t然后\t就\t见识\t到\t了\t你\t天美\t是\t真\t恶心\t \t我\t是\t真的\t菜\t \t不能\t一打\t五\t \t到\t了\t钻石\t连胜\t五次\t必\t碰到\t*\t*\t*\t \t然后\t就要\t开始\t连\t跪\t \t你\t想\t认真\t玩\t \t可以\t \t结果\t队友\t菜\t还\t骚话\t不断\t影响\t心情\t \t这次\t新号\t一分钱\t没充\t没\t英雄\t \t只能\t寄\t希望\t给\t队友\t \t不然\t我\t当时\t江苏省\t前\t50\t的\t雅典娜\t \t这多\t了\t个\t星耀\t在\t王者\t中间\t正常\t还是\t带\t的\t动\t的\t低端\t局\t的\t吧\t \t然而\t并\t没有\t \t只好\t老老实实\t玩\t辅助\t（\t鱼\t，\t项羽\t）\t \t上单\t（\t只有\t凯\t（\t实在\t筹\t不到\t18888\t买\t雅典娜\t)\t和\t曹操\t）\t养\t队友\t（\t儿子\t)\t一路\t混上\t了\t钻石\t \t网\t却\t总是\t460\t \t我\t就\t纳闷\t了\t \t还\t能\t是\t我家\t网烂\t到\t这种\t程度\t么\t \t那\t我\t用\t移动\t卡\t \t电信卡\t流量\t你\t还\t能\t这样\t？\t行\t \t你\t说\t有\t个\t加速器\t是\t什么\t至尊\t通道\t \t我\t买\t \t但\t你\t想\t让\t我\t买\t皮肤\t什么\t的\t做梦\t \t然后\t网络\t就\t奇迹\t般的\t好\t了\t \t呵呵\t \t那\t我\t就\t玩\t射手\t速度\t点上\t分\t \t非常\t顺利\t的\t上\t了\t钻\t一\t \t然后\t心态\t就\t彻底\t炸\t了\t \t真\t*\t*\t*\t的\t不想\t玩\t就\t别\t玩\t \t不要\t刚\t进来\t就\t一副\t自己\t很\tnb\t的\t样子\t \t然后\t被\t人\t打\t崩\t了\t怪\t队友\t \t我\t一点\t也\t不怪\t队友\t \t我怪\t的\t是\t天美\t你\t的\t*\t*\t*\t匹配\t系统\t \t当年\t就\t感觉\t*\t*\t*\t \t现在\t更\t*\t*\t*\t \t劳资\t是不是\t要\t次次\t评分\t最低\t你\t才\t给\t点\t正常人\t给\t我\t？\t是不是\t只有\t我\t一直\t输\t \t我\t才\t配赢\t？\t能\t不能\t请\t你\t把\t有\t脑子\t的\t没脑子\t的\t分\t两个\t频道\t \t别\t跟\t带\t小孩\t一样\t \t评分\t一高\t \t一\t连胜\t \t就\tnm\t要\t带\t小孩\t \t凭\t什么\t？\t玩个\t游戏\t \t谁\t不是\t来\t找\t成就感\t的\t \t你\t把\t我\t对手\t弄\t得\t再\t强\t我\t没\t意见\t \t至少\t队友\t要\t知道\t大概\t思路\t怎么\t赢\t \t你\t把\t弱智\t放进来\t \t我\t只\t想\t说\t*\t*\t*\t我\t也\t打\t不过"})
+ =[WARN] 2019-07-16 21:24:45,916 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_JsonParseError] mapSegment error	reviewJson string: 
+ spray.json.JsonParser$ParsingException: Unexpected end-of-input at input index 0 (line 1, position 1), expected JSON Value:
+
+^
+
+	at spray.json.JsonParser.fail(JsonParser.scala:213)
+	at spray.json.JsonParser.value(JsonParser.scala:64)
+	at spray.json.JsonParser.parseJsValue(JsonParser.scala:43)
+	at spray.json.JsonParser$.apply(JsonParser.scala:28)
+	at spray.json.PimpedString.parseJson(package.scala:45)
+	at sparkstreaming_action.statistic.service.SegmentService$.mapSegment(SegmentService.scala:43)
+	at sparkstreaming_action.statistic.service.SegmentServiceTest.testDemo(SegmentServiceTest.scala:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+=[WARN] 2019-07-16 21:24:45,932 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_GameIgnored] no need to monitor gameId: 2
+ =[WARN] 2019-07-16 21:24:46,701 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 1	gameName: a	time elapsed: 769	MonitorGames count: 2
+
+ =[WARN] 2019-07-16 21:24:46,709 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_ReviewEmpty] reviewJson: { "gameId":"1", "review":"" }
+ =[WARN] 2019-07-16 21:24:46,716 sparkstreaming_action.statistic.service.SegmentService$ mapSegment - [Segment_Success] gameId: 2301	gameName: b	time elapsed: 7	MonitorGames count: 2
+
+ 
