@@ -28,7 +28,7 @@
   	<dependency><!-- MySQL 依赖包 -->
   		<groupId>mysql</groupId>
   		<artifactId>mysql-connector-java</artifactId>
-  		<version>5.1.47</version>
+  		<version>8.0.28</version>
   	</dependency>
   	<dependency><!-- MySQL 连接池依赖包 -->
   		<groupId>c3p0</groupId>
